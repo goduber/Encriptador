@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto Challenge ENCRIPTADOR</title>
+    <!--"reset" para eliminar todos los margenes por defecto-->
+    <link rel="stylesheet" href="reset.css" />
+    <!--Style principal-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Fuentes de Lestras que van a ser utilizados en la pagina-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/Vector.png" alt="logo de alura" class="logo">
+    </header>
+    <main>
+        <section class="S1">
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="S2">
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="btncopiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div>
+                <img id="icon_Program" src="Iconos/programador.png" alt="Icono de Programador" />
+            </div>
+            <div>
+                <p id="autor">Gregorio Oduber Quevedo</p>
+            </div>
+            <div>
+                <p class="datosPer">Tecnico Superios Univercitario en Analista de Sistemas</p>
+                <p class="datosPer"> <img class="bandera" src="Iconos/bandera.png" alt="Bandera" />  Lima - Peru</p>
+            </div>
+        </section>
+        <section>
+            <a href="https://www.linkedin.com/in/gregorio-jose-oduber-quevedo"><img id="logoLinkedin" src="Iconos/linkedin.png" alt="Vinculo a Linkedin" /></a>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
